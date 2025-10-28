@@ -1,0 +1,46 @@
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//
+//      Function name : RectArea
+//      Description :   It is used to return area of rectangle based on the given width and height.
+//      Input :         Integer
+//      Output :        Double
+//      Author :        Swayam Satish Gunjal
+//      Date :          26/10/2025
+//
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+#include<stdio.h>
+
+double RectArea(float fWidth, float fHeight)
+{
+    float fArea = 0.0;
+
+    fArea = fWidth * fHeight;
+
+    return fArea;
+
+}
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//
+//      Time Complexity : O(1)
+//
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+int main()
+{
+    float fValue1 = 0.0f, fValue2 = 0.0f;
+    double dRet = 0.0;
+
+    printf("Enter width : \n");
+    scanf("%f",&fValue1);
+
+    printf("Enter height : \n");
+    scanf("%f",&fValue2);
+
+    dRet = RectArea(fValue1,fValue2);
+
+    printf("Area of Rectangle is %f",dRet);
+
+    return 0;
+}

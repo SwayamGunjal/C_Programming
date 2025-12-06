@@ -21,7 +21,7 @@ void Display()
 {
     static char ch = 'A';
 
-    if(ch >= 'A' && ch <= 'F')
+    if(ch <= 'F')
     {
         printf("%C\t",ch);
         ch++;

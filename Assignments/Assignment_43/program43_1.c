@@ -1,14 +1,21 @@
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 //
-//      Function name : Mult
-//      Description :   Calculate the product of digits of the given number using recursion.
-//      Input :         Integer
-//      Output :        Integer
+//      Function name : DisplayPerfect
+//      Description :   Display all perfect numbers from the singly linked list.
+//      Input :         PNODE
+//      Output :        Void
 //      Author :        Swayam Satish Gunjal
 //      Date :          16/12/2025
 //
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
+/*
+
+Input structure : | 11 |->| 28 |->| 17 |->| 41 |->| 6 |->| 89 |->NULL
+
+Output          : 28    6
+
+*/
 
 #include<stdio.h>
 #include<stdlib.h>

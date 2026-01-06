@@ -1,14 +1,21 @@
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 //
-//      Function name : Mult
-//      Description :   Calculate the product of digits of the given number using recursion.
-//      Input :         Integer
-//      Output :        Integer
+//      Function name : DisplayPrime
+//      Description :   Display all prime numbers from the singly linked list.
+//      Input :         PNODE
+//      Output :        Void
 //      Author :        Swayam Satish Gunjal
 //      Date :          16/12/2025
 //
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
+/*
+
+Input structure : | 11 |->| 20 |->| 17 |->| 41 |->| 22 |->| 89 |->NULL
+
+Output          : 11      17      41      89
+
+*/
 
 #include<stdio.h>
 #include<stdlib.h>

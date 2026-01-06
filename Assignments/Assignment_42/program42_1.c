@@ -1,14 +1,23 @@
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 //
-//      Function name : Mult
-//      Description :   Calculate the product of digits of the given number using recursion.
-//      Input :         Integer
+//      Function name : SearchFirstOcc
+//      Description :   Find the position of the first occurrence of the given element in the singly linked list.
+//      Input :         PNODE, Integer
 //      Output :        Integer
 //      Author :        Swayam Satish Gunjal
 //      Date :          16/12/2025
 //
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
+/*
+
+Input structure : | 10 |->| 20 |->| 30 |->| 40 |->| 50 |->| 30 |->| 70 |->NULL
+
+Input     : 30
+
+Output    : 3
+
+*/
 
 #include<stdio.h>
 #include<stdlib.h>
@@ -44,108 +53,7 @@ void InsertFirst(PPNODE first, int no)
     
 }
 
-void InsertLast(PPNODE first, int no)
-{
-    PNODE newn = NULL;
-    PNODE temp = NULL;
 
-    newn = (PNODE)malloc(sizeof(NODE));
-
-    newn -> data = no;
-    newn -> next = NULL;
-
-    if (*first == NULL)                     //  LL is empty
-    {
-        (*first) = newn;   
-    }
-    else                                    //  LL contains atleast 1 node
-    {
-        temp = *first;
-
-        while (temp -> next != NULL)
-        {
-            temp = temp -> next;
-        }
-        
-        temp -> next = newn;
-    }
-    
-}
-
-void Display(PNODE first)
-{
-    while (first != NULL)
-    {
-        printf("| %d |->",first -> data);
-        first = first -> next;
-    }
-    printf("NULL \n");
-    
-}
-
-int Count(PNODE first)
-{
-    int iCount = 0;
-
-    while (first != NULL)
-    {
-        iCount++;
-        first = first -> next;
-    }
-
-    return iCount;
-    
-}
-
-void DeleteFirst(PPNODE first)
-{
-    PNODE temp = NULL;
-
-    if ((*first) == NULL)                   //  Case 1
-    {
-        return;
-    }
-    else if ((*first) -> next == NULL)      //  Case 2
-    {
-        free(*first);
-        *first = NULL;
-    }
-    else                                    //  Case 3
-    {
-        temp = *first;
-        *first = (*first) -> next;
-        free(temp);
-        
-    }  
-}
-
-void DeleteLast(PPNODE first)
-{
-    PNODE temp = NULL;
-
-    if ((*first) == NULL)                   //  Case 1
-    {
-        return;
-    }
-    else if ((*first) -> next == NULL)      //  Case 2
-    {
-        free(*first);
-        *first = NULL;
-    }
-    else                                    //  Case 3
-    {
-        temp = *first;
-
-        while (temp -> next -> next != NULL)
-        {
-            temp = temp -> next;
-        }
-
-        free(temp -> next);
-        temp -> next = NULL;
-        
-    }  
-}
 
 int SearchFirstOcc(PNODE head, int no)
 {

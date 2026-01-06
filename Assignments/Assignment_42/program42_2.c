@@ -1,14 +1,21 @@
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 //
-//      Function name : Mult
-//      Description :   Calculate the product of digits of the given number using recursion.
-//      Input :         Integer
+//      Function name : SearchLastOcc
+//      Description :   Find the position of the last occurrence of the given element in the singly linked list.
+//      Input :         PNODE, Integer
 //      Output :        Integer
 //      Author :        Swayam Satish Gunjal
 //      Date :          16/12/2025
 //
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
+/*
+
+Input structure : | 10 |->| 20 |->| 30 |->| 40 |->| 50 |->| 30 |->| 70 |->NULL
+
+Output          : 6
+
+*/
 
 #include<stdio.h>
 #include<stdlib.h>

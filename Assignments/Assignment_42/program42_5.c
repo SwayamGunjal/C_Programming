@@ -1,14 +1,21 @@
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 //
-//      Function name : Mult
-//      Description :   Calculate the product of digits of the given number using recursion.
-//      Input :         Integer
+//      Function name : Minimum
+//      Description :   Find the minimum element from the singly linked list.
+//      Input :         PNODE, Integer
 //      Output :        Integer
 //      Author :        Swayam Satish Gunjal
 //      Date :          16/12/2025
 //
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
+/*
+
+Input structure : | 110 |->| 230 |->| 320 |->| 240 |->NULL
+
+Output          : 110
+
+*/
 
 #include<stdio.h>
 #include<stdlib.h>

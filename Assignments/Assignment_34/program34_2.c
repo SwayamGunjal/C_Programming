@@ -1,11 +1,11 @@
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 //
-//      Function name : DisplaySchedule
-//      Description :   Check whether given character is small case or not.
+//      Function name : Display
+//      Description :   Toggle the case of the given character.
 //      Input :         Character
 //      Output :        void
 //      Author :        Swayam Satish Gunjal
-//      Date :          02/12/2025
+//      Date :          03/12/2025
 //
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
@@ -29,19 +29,19 @@ Output  :   %
 
 void Display(char ch)
 {
-    if (ch >= 'A' && ch <= 'Z')
+    if ((ch >= 'A') && (ch <= 'Z'))
     {
         ch = ch + 32;
-        printf("%c",ch);
+        printf("%c\n", ch);
     }
-    else if (ch >= 'a' && ch <= 'z')
+    else if ((ch >= 'a') && (ch <= 'z'))
     {
         ch = ch - 32;
-        printf("%c",ch);
+        printf("%c\n", ch);
     }
     else
     {
-        printf("%c",ch);
+        printf("%c\n", ch);
     }
     
 }

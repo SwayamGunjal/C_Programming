@@ -1,7 +1,7 @@
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 //
 //      Function name : Reverse
-//      Description :   It is used to return reverse of a string.
+//      Description :   Displays the reverse of a string on screen.
 //      Input :         Character
 //      Output :        void
 //      Author :        Swayam Satish Gunjal
@@ -40,7 +40,6 @@ void Reverse(char *str)
 int main()
 {
     char arr[20];
-    int iRet = 0;
 
     printf("Enter string : ");
     scanf("%[^\n]",arr);

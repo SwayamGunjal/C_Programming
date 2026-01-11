@@ -1,7 +1,7 @@
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 //
 //      Function name : Display
-//      Description :   Toggle the case of the given character.
+//      Description :   Display alphabets from the entered character to the end in its case.
 //      Input :         Character
 //      Output :        void
 //      Author :        Swayam Satish Gunjal

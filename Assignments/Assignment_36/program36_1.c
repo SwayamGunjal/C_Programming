@@ -42,7 +42,7 @@ int main()
 
     strwrx(arr);
 
-    printf("Modified string is %s",arr);
+    printf("Modified string is : %s",arr);
 
     return 0;
 }

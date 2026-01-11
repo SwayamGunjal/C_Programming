@@ -29,7 +29,7 @@ Output  :    4
 
 int FirstChar(char *str, char ch)
 {
-    int iIndex = 0;
+int iIndex = 0;
 
     while (*str != '\0')
     {

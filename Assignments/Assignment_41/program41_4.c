@@ -1,7 +1,7 @@
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 //
 //      Function name : Fact
-//      Description :   Calculate the factorial of a given number using recursion.
+//      Description :   Calculate the sum of digits of the given number using recursion.
 //      Input :         Integer
 //      Output :        Integer
 //      Author :        Swayam Satish Gunjal
@@ -11,8 +11,8 @@
 
 /*
 
-    Input   :   5
-    Output  :   120
+    Input   :   879
+    Output  :   24
 
 */
 
@@ -28,7 +28,7 @@ int Fact(int iNo)
         iFact = iFact * iCnt;
 
         iCnt++;
-
+        
         Fact(iNo);
     }
     

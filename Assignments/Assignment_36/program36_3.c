@@ -1,7 +1,7 @@
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 //
-//      Function name : strtogglex
-//      Description :   Toggles all lowercase characters of string into uppercase and vice versa.
+//      Function name : struprx
+//      Description :   Converts all lowercase characters of string into uppercase.
 //      Input :         Character
 //      Output :        void
 //      Author :        Swayam Satish Gunjal
@@ -12,13 +12,13 @@
 /*
  
 Input   :   "Marvellous Multi OS"
-Output  :    mARVELLOUS mULTI os
+Output  :    MARVELLOUS MULTI OS
  
  */
 
 #include<stdio.h>
 
-void strtogglex(char *str)
+void struprx(char *str)
 {
 
     while(*str != '\0')
@@ -44,7 +44,7 @@ int main()
     printf("Enter string : ");
     scanf("%[^\n]",arr);
 
-    strtogglex(arr);
+    struprx(arr);
 
     printf("Modified string is : %s",arr);
 

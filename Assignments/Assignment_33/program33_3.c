@@ -1,7 +1,7 @@
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 //
 //      Function name : ChkDigit
-//      Description :   Check whether given character is digit or not.
+//      Description :   Check whether given character is capital or not.
 //      Input :         Character
 //      Output :        Boolean
 //      Author :        Swayam Satish Gunjal

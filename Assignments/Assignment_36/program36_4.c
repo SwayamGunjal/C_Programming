@@ -1,7 +1,7 @@
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 //
 //      Function name : DisplayDigit
-//      Description :   Prints only numbers in the given string.
+//      Description :   Toggles all lowercase characters of string into uppercase and vice versa.
 //      Input :         Character
 //      Output :        void
 //      Author :        Swayam Satish Gunjal
@@ -12,7 +12,7 @@
 /*
  
 Input   :   "marve89llous121"
-Output  :    89121
+Output  :    mARVELLOUS mULTI os
  
  */
 
@@ -26,7 +26,8 @@ void DisplayDigit(char *str)
         if (*str >= '0' && *str <= '9')
         {
             printf("%c",*str);
-        }     
+        }
+             
         
         str++;
     }

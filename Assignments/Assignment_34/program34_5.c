@@ -1,7 +1,7 @@
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 //
 //      Function name : Display
-//      Description :   Display ASCII value of given character in decimal, octal and hexadecimal format.
+//      Description :   Display alphabets from the entered character to the end in its case.
 //      Input :         Character
 //      Output :        void
 //      Author :        Swayam Satish Gunjal
@@ -12,7 +12,6 @@
 /*
  
 Input   :   A
-
 Output  :   Decimal         65
             Octal           0101
             Hexadecimal     0X41
